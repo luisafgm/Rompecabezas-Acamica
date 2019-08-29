@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  width: 940px;
+  margin: 5% auto;
+  min-height: 100%;
+  background-image: url(../images/adventure.jpg);
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+  color: #eb4b5c;
+  font-style:oblique;
+}
+
+li {
+  padding: 5px 0;
+  animation: fadein 5s;
+}
+
+li::before {
+  content: "• ";
+  color: #eb4b5c;
+}
+
+.col-40 h1 {
+  font-size: 20px;
+  color: #eb4b5c;
+}
+
+.col-40, .col-60 {
+  display: table-cell;
+  margin: 0;
+  vertical-align: top;
+}
+
+.col-40 {
+  background: #9be8;
+  padding: 30px;
+}
+
+.col-60 {
+  background:	#eb4b5c;
+}
+
+#flecha{
+  font-size: 60px;
+}
+
+.texto-centrado {
+  text-align: center;
+}
+
+#juego div {
+  text-align: center;
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/*Lo nuevo*/
+
+.col-40{
+  width:40%;
+}
+
+.col-60{
+  width:60%;
+}
+
+#juego {
+  height:600px;
+  width:600px;
+}
+
+.partes{
+  border: 1px solid #eb4b5c;
+  float: left;
+  width: 33%;
+  height: 33%;
+}
+
+.partes img{
+  width:100%;
+}
+
+#titulo {
+  text-align: center;
+}
+
+#footer {
+  font-family: 'Kavivanar', cursive;
+  font-size: 10px;
+  color: #eb4b5c;
+}
